@@ -1,29 +1,29 @@
 {
   "expo": {
-    "name": "ToDo",
+    "name": "ToDo List - Acadêmico",
     "slug": "ToDo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/ToDo-icon.png",
+
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+
+    "newArchEnabled": false,
+
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#caddca"
     },
+
     "ios": {
       "supportsTablet": true
     },
+
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.baianopraiero.todo"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+
+    "web": {}
   }
 }
